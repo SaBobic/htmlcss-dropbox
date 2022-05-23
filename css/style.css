@@ -1,4 +1,4 @@
-/* Reset */
+/* RESET */
 
 *{
     margin: 0;
@@ -6,18 +6,15 @@
     box-sizing: border-box;
 }
 
-/* Generics */
+/* GENERICS */
 
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
 }
 
 main{
     margin-top: 80px;
-}
-
-ul{
-    list-style: none;
 }
 
 a{
@@ -31,7 +28,7 @@ h1{
     margin-bottom: 50px;
 }
 
-/* Utils */
+/* UTILS */
 
 .d-flex{
     display: flex;
@@ -41,13 +38,22 @@ h1{
     align-items: center;
 }
 
+.space-between{
+    justify-content: space-between;
+    align-items: ;
+}
+
 .c-white{
     color: #fff;
 }
 
-.big-container{
-    width: 1183px;
+.container{
+    width: 983px;
     margin: 0 auto;
+}
+
+.container.big-container{
+    width: 1183px;
 }
 
 .blue-button{
@@ -57,7 +63,7 @@ h1{
     color: #fff;
 }
 
-/* Header */
+/* HEADER */
 
 header{
     height: 80px;
@@ -68,8 +74,6 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-
-    justify-content: space-between;
 }
 
 nav img{
@@ -81,17 +85,22 @@ nav img, li{
     margin: 0 20px;
 }
 
+nav ul{
+    list-style: none;
+}
+
 #main-menu-button{
     background-color: #0061FF;
     padding: 6px 16px;
     margin-right: 3px;
 }
 
-/* Jumbotron */
+/* JUMBOTRON */
 
 .jumbotron{
     height: 738px;
     padding-top: 80px;
+    margin-bottom: 200px;
     background-color: #B4D0E7;
 }
 
@@ -114,4 +123,17 @@ nav img, li{
 .fa-solid.fa-arrow-down{
     font-size: 50px;
     margin-top: 70px;
+}
+
+/* PLANS SECTION */
+
+.col-plan{
+    height: 800px;
+    width: calc(100% / 3 - 20px);
+    border: 1px solid lightgray;
+}
+
+.row-plan{
+    height: 200px;
+    border: 1px solid lightgray;
 }
