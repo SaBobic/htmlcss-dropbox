@@ -36,6 +36,11 @@ a{
     color: #fff;
 }
 
+.big-container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
 /* Header */
 
 header{
@@ -57,4 +62,16 @@ nav img, li{
     background-color: #0061FF;
     padding: 6px 16px;
     margin-right: 3px;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    height: 738px;
+    padding-top: 98px;
+    background-color: #B4D0E7;
+}
+
+.jumbotron img{
+    width: 900px;
 }
