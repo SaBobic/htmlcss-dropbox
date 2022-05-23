@@ -22,10 +22,17 @@ a{
     color: #000;
 }
 
+h1, h2, h3, h4{
+    margin-bottom: 50px;
+}
+
 h1{
     font-size: 77px;
     font-weight: 900;
-    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 /* UTILS */
@@ -40,7 +47,6 @@ h1{
 
 .space-between{
     justify-content: space-between;
-    align-items: ;
 }
 
 .c-white{
@@ -100,7 +106,7 @@ nav ul{
 .jumbotron{
     height: 738px;
     padding-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     background-color: #B4D0E7;
 }
 
