@@ -46,7 +46,7 @@ nav img{
     display: block;
 }
 
-nav > img, li{
+nav img, li{
     margin: 0 20px;
 }
 
