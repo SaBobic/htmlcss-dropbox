@@ -28,6 +28,10 @@ a{
     display: flex;
 }
 
+.align-center{
+    align-items: center;
+}
+
 .c-white{
     color: #fff;
 }
@@ -38,7 +42,6 @@ header{
     height: 80px;
     box-shadow: 0 0 3px #D1D9E1;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav img{
