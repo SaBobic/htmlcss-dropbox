@@ -62,8 +62,12 @@ ul{
     margin: 0 auto;
 }
 
-.container.big-container{
+.big-container{
     width: 1183px;
+}
+
+.col-container{
+    padding: 40px 35px;
 }
 
 .blue-button{
@@ -131,10 +135,39 @@ nav img{
 .col-plan{
     height: 800px;
     width: calc(100% / 3 - 20px);
-    border: 1px solid lightgray;
+    border: 1px solid #D3D3D3;
 }
 
 .row-plan{
     height: 200px;
-    border: 1px solid lightgray;
+    border: 1px solid #D3D3D3;
+}
+
+li .fa-circle.selected{
+    color: #0061FF;
+    font-weight: 700;
+}
+
+li .fa-circle.not-selected{
+    color: #D3D3D6;
+}
+
+.mensile-annuale{
+    margin-right: 40px;
+}
+
+.plans ul{
+    margin-bottom: 40px;
+}
+
+.col-plan-header{
+    text-align: center;
+    border-bottom: 1px solid #D3D3D3;
+    padding: 10px 0;
+}
+
+.col-plan-bar{
+    height: 2px;
+    width: 60px;
+    background-color: #E6E6E8;;
 }
