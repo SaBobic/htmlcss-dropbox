@@ -10,6 +10,52 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 /* Utils */
+
+.d-flex{
+    display: flex;
+}
+
+.c-white{
+    color: #fff;
+}
+
+/* Header */
+
+header{
+    height: 80px;
+    box-shadow: 0 0 3px #D1D9E1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 25px;
+    display: block;
+}
+
+nav > img, li{
+    margin: 0 20px;
+}
+
+nav li:last-child{
+    margin: 0;
+}
+
+#main-menu-button{
+    background-color: #0061FF;
+    padding: 5px 15px;
+    margin: 0 3px;
+}
