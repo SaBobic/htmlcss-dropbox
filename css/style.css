@@ -10,7 +10,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    overflow-y: scroll;
+}
+
+main{
+    margin-top: 80px;
 }
 
 ul{
@@ -57,7 +60,14 @@ h1{
 
 header{
     height: 80px;
+    width: 100%;
     box-shadow: 0 0 3px #D1D9E1;
+    background-color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
     justify-content: space-between;
 }
 
