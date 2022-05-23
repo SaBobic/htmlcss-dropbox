@@ -35,6 +35,10 @@ h2{
     font-size: 40px;
 }
 
+ul{
+    list-style: none;
+}
+
 /* UTILS */
 
 .d-flex{
@@ -87,18 +91,9 @@ nav img{
     display: block;
 }
 
-nav img, li{
-    margin: 0 20px;
-}
-
-nav ul{
-    list-style: none;
-}
-
 #main-menu-button{
     background-color: #0061FF;
     padding: 6px 16px;
-    margin-right: 3px;
 }
 
 /* JUMBOTRON */
