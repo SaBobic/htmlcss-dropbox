@@ -130,6 +130,18 @@ ul{
     width: 25px;
 }
 
+.small-gray-bar{
+    height: 2px;
+    width: 60px;
+    background-color: #E6E6E8;;
+}
+
+.big-gray-bar{
+    height: 2px;
+    width: 120px;
+    background-color: #E6E6E8;;
+}
+
 /* HEADER */
 
 header{
@@ -141,6 +153,8 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+
+    z-index: 1;
 }
 
 nav img{
@@ -204,12 +218,6 @@ li .fa-circle.not-selected{
     text-align: center;
     border-bottom: 1px solid #D3D3D3;
     padding: 10px 0;
-}
-
-.col-plan-bar{
-    height: 2px;
-    width: 60px;
-    background-color: #E6E6E8;;
 }
 
 .col-plan-highlights span{
@@ -338,7 +346,7 @@ li .fa-circle.not-selected{
 }
 
 #box-1 .company-box-logo:hover{
-    transition: border 0.5s;
+    transition: border 1s;
     border: 15px solid #D1E9CD;
 }
 
@@ -349,4 +357,30 @@ li .fa-circle.not-selected{
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+}
+
+.company-demonstration{
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+.company-demonstration img{
+    width: 50%;
+}
+
+/* DROPBOX BUSINESS TEST SECTION */
+
+.business-test{
+    background-color: #B4D0E7;
+    padding: 150px 0;
+}
+
+.business-test a{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.business-test h2{
+    color: #61082B;
+    padding-right: 150px;
 }
