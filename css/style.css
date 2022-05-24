@@ -295,15 +295,6 @@ li .fa-circle.not-selected{
     flex-wrap: wrap;
 }
 
-.company-box-logo img{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
-}
-
 #box-1{
     background-color: #A2D39B;
 }
@@ -334,4 +325,28 @@ li .fa-circle.not-selected{
 
 #box-8{
     background-color: #FFD830;
+}
+
+#box-1 .company-box-logo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 15px solid transparent;
+}
+
+#box-1 .company-box-logo:hover{
+    transition: border 0.5s;
+    border: 15px solid #D1E9CD;
+}
+
+.company-box-logo img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
