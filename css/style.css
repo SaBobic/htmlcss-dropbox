@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    overflow-y: scroll;
+    font-size: 15px;
 }
 
 main{
@@ -72,7 +72,7 @@ ul{
 }
 
 .col-container{
-    padding: 40px 35px;
+    padding: 30px 30px;
 }
 
 .btn{
@@ -82,6 +82,20 @@ ul{
     color: #fff;
     text-align: center;
     font-size: 14px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.icon-padding{
+    display: inline-block;
+    margin-left: -25px;
+    width: 25px;
 }
 
 /* HEADER */
@@ -116,7 +130,7 @@ nav li{
 /* JUMBOTRON */
 
 .jumbotron{
-    height: 738px;
+    height: 740px;
     padding-top: 80px;
     margin-bottom: 150px;
     background-color: #B4D0E7;
@@ -135,7 +149,6 @@ nav li{
 }
 
 .jumbotron-cta .btn{
-    margin: 30px 0;
     display: inline-block;
 }
 
@@ -147,7 +160,6 @@ nav li{
 /* PLANS SECTION */
 
 .col-plan{
-    height: 800px;
     width: calc(100% / 3 - 20px);
     border: 1px solid #D3D3D3;
 }
@@ -170,10 +182,6 @@ li .fa-circle.not-selected{
     margin-right: 40px;
 }
 
-.plans ul{
-    margin-bottom: 40px;
-}
-
 .col-plan-header{
     text-align: center;
     border-bottom: 1px solid #D3D3D3;
@@ -184,4 +192,36 @@ li .fa-circle.not-selected{
     height: 2px;
     width: 60px;
     background-color: #E6E6E8;;
+}
+
+.col-plan-cta .buy-now{
+    color: #2626F1;
+    text-decoration: underline;
+}
+
+.col-plan-highlights span{
+    font-weight: 700;
+    display: block;
+}
+
+.col-plan li, .col-plan-info li{
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+.plan-name{
+    margin-bottom: 15px;
+}
+
+.plan-pricing{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plan-lenght{
+    color: #8A8782;
 }
