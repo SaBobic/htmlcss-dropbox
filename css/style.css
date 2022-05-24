@@ -45,6 +45,13 @@ ul{
 
 /* UTILS */
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -67,6 +74,11 @@ ul{
 
 .c-white{
     color: #fff;
+}
+
+.blue-link{
+    color: #2626F1;
+    text-decoration: underline;
 }
 
 .container{
@@ -163,7 +175,7 @@ nav li{
 /* PLANS SECTION */
 
 .col-plan{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 30px);
     border: 1px solid #D3D3D3;
 }
 
@@ -190,11 +202,6 @@ li .fa-circle.not-selected{
     height: 2px;
     width: 60px;
     background-color: #E6E6E8;;
-}
-
-.col-plan-cta .buy-now{
-    color: #2626F1;
-    text-decoration: underline;
 }
 
 .col-plan-highlights span{
@@ -230,4 +237,41 @@ li .fa-circle.not-selected{
 
 .row-contact{
     padding-left: 40px;
+}
+
+/* PARTNER SECTION */
+
+.partner-img{
+    width: 60%;
+}
+
+.partner-text{
+    width: 40%;
+    padding: 50px;
+}
+
+.partner-text *{
+    margin-bottom: 20px;
+}
+
+.partner-img img{
+    width: 100%;
+}
+
+#partner-btn{
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+/* DROPBOX BUSINESS SECTION */
+
+.col-business{
+    width: calc(100% / 3 - 30px);
+    flex-wrap: wrap;
+}
+
+.col-business img{
+    width: 100%;
 }
