@@ -57,6 +57,14 @@ ul{
     justify-content: space-between;
 }
 
+.w-30{
+    width: 30%;
+}
+
+.w-70{
+    width: 70%;
+}
+
 .c-white{
     color: #fff;
 }
@@ -90,6 +98,10 @@ ul{
 
 .mb-40{
     margin-bottom: 40px;
+}
+
+.mb-150{
+    margin-bottom: 150px;
 }
 
 .icon-padding{
@@ -132,20 +144,11 @@ nav li{
 .jumbotron{
     height: 740px;
     padding-top: 80px;
-    margin-bottom: 150px;
     background-color: #B4D0E7;
 }
 
 .jumbotron img{
     width: 100%;
-}
-
-.jumbotron-cta{
-    width: 30%;
-}
-
-.jumbotron-img{
-    width: 70%;
 }
 
 .jumbotron-cta .btn{
@@ -164,11 +167,6 @@ nav li{
     border: 1px solid #D3D3D3;
 }
 
-.row-plan{
-    height: 200px;
-    border: 1px solid #D3D3D3;
-}
-
 li .fa-circle.selected{
     color: #0061FF;
     font-weight: 700;
@@ -182,7 +180,7 @@ li .fa-circle.not-selected{
     margin-right: 40px;
 }
 
-.col-plan-header{
+.col-plan-header, .row-plan-header{
     text-align: center;
     border-bottom: 1px solid #D3D3D3;
     padding: 10px 0;
@@ -224,4 +222,12 @@ li .fa-circle.not-selected{
 
 .plan-lenght{
     color: #8A8782;
+}
+
+.row-plan{
+    border: 1px solid #D3D3D3;
+}
+
+.row-contact{
+    padding-left: 40px;
 }
