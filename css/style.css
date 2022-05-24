@@ -22,7 +22,7 @@ a{
     color: #000;
 }
 
-h1, h2, h3, h4{
+h1, h2{
     margin-bottom: 50px;
 }
 
@@ -33,6 +33,10 @@ h1{
 
 h2{
     font-size: 40px;
+}
+
+h3{
+    font-size: 22px;
 }
 
 ul{
@@ -58,23 +62,26 @@ ul{
 }
 
 .container{
-    width: 983px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .big-container{
-    width: 1183px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .col-container{
     padding: 40px 35px;
 }
 
-.blue-button{
-    display: inline-block;
-    padding: 11px 16px;
+.btn{
+    display: block;
+    padding: 10px 15px;
     background-color: #0061FF;
     color: #fff;
+    text-align: center;
+    font-size: 14px;
 }
 
 /* HEADER */
@@ -95,9 +102,15 @@ nav img{
     display: block;
 }
 
-#main-menu-button{
+nav li{
+    padding: 0 20px;
+}
+
+#header-button{
     background-color: #0061FF;
-    padding: 6px 16px;
+    color: #fff;
+    padding: 5px 15px;
+    margin-right: 20px;
 }
 
 /* JUMBOTRON */
@@ -110,19 +123,20 @@ nav img{
 }
 
 .jumbotron img{
-    width: 840px;
-}
-
-.blue-button.jumbotron-button{
-    margin: 30px 0;
+    width: 100%;
 }
 
 .jumbotron-cta{
-    width: 360px;
+    width: 30%;
 }
 
 .jumbotron-img{
-    width: calc(100% - 360px);
+    width: 70%;
+}
+
+.jumbotron-cta .btn{
+    margin: 30px 0;
+    display: inline-block;
 }
 
 .fa-solid.fa-arrow-down{
