@@ -72,6 +72,14 @@ ul{
     width: 70%;
 }
 
+.w-33{
+    width: calc(100% / 3);
+}
+
+.w-50{
+    width: 50%;
+}
+
 .c-white{
     color: #fff;
 }
@@ -265,7 +273,7 @@ li .fa-circle.not-selected{
     border: 1px solid #000;
 }
 
-/* DROPBOX BUSINESS SECTION */
+/* DROPBOX BUSINESS FUNCTIONS SECTION */
 
 .col-business{
     width: calc(100% / 3 - 30px);
@@ -274,4 +282,56 @@ li .fa-circle.not-selected{
 
 .col-business img{
     width: 100%;
+}
+
+/* PORTFOLIO SECTION */
+
+.company-box{
+    padding-top: 50%;
+    position: relative;
+}
+
+.company-row{
+    flex-wrap: wrap;
+}
+
+.company-box-logo img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+#box-1{
+    background-color: #A2D39B;
+}
+
+#box-2{
+    background-color: #61082B;
+}
+
+#box-3{
+    background-color: #0093CE;
+}
+
+#box-4{
+    background-color: #FF1C1C;
+}
+
+#box-5{
+    background-color: #D5001F;
+}
+
+#box-6{
+    background-color: #B4D0E7;
+}
+
+#box-7{
+    background-color: #0D2481;
+}
+
+#box-8{
+    background-color: #FFD830;
 }
