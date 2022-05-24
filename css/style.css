@@ -372,7 +372,7 @@ li .fa-circle.not-selected{
 
 .business-test{
     background-color: #B4D0E7;
-    padding: 150px 0;
+    padding: 120px 0;
 }
 
 .business-test a{
@@ -383,4 +383,16 @@ li .fa-circle.not-selected{
 .business-test h2{
     color: #61082B;
     padding-right: 150px;
+}
+
+/* FAQ SECTION */
+
+.questions-row{
+    border-top: 1px solid #000;
+}
+
+.question-box{
+    padding: 40px 40px 40px 0;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
 }
