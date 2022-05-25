@@ -110,6 +110,11 @@ ul{
     color: #fff;
     text-align: center;
     font-size: 14px;
+    transition: opacity;
+}
+
+.btn:hover{
+    filter: opacity(0.8);
 }
 
 .mb-30{
