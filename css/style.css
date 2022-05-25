@@ -132,13 +132,13 @@ ul{
 
 .small-gray-bar{
     height: 2px;
-    width: 60px;
+    width: 55px;
     background-color: #E6E6E8;;
 }
 
 .big-gray-bar{
     height: 2px;
-    width: 120px;
+    width: 110px;
     background-color: #E6E6E8;;
 }
 
@@ -292,15 +292,37 @@ li .fa-circle.not-selected{
     width: 100%;
 }
 
-/* PORTFOLIO SECTION */
 
-.company-box{
-    padding-top: 50%;
-    position: relative;
+/* DROPBOX BUSINESS TESTIMONIALS SECTION */
+
+.clients-cta{
+    padding-right: 300px;
 }
 
-.company-row{
+.testimonial-boxes{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
+}
+
+.testimonial-boxes .testimonial-box{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    border: 10px solid transparent;
+    transition: border 0.2s;
+}
+
+.testimonial-boxes .testimonial-box:hover{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    border: 10px solid #D1E9CD;
+}
+
+.testimonial-boxes .testimonial-box img{
+    width: 50%;
+    filter: invert(1);
 }
 
 #box-1{
@@ -335,54 +357,33 @@ li .fa-circle.not-selected{
     background-color: #FFD830;
 }
 
-#box-1 .company-box-logo{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 15px solid transparent;
-}
-
-#box-1 .company-box-logo:hover{
-    transition: border 1s;
-    border: 15px solid #D1E9CD;
-}
-
-.company-box-logo img{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
-}
-
-.company-demonstration{
-    padding: 50px;
+#box-9{
     background-color: #F5F5F5;
+    padding: 50px;
 }
 
-.company-demonstration img{
+#box-9 img{
     width: 50%;
 }
 
-/* DROPBOX BUSINESS TEST SECTION */
-
-.business-test{
+.dropbox-business-test{
     background-color: #B4D0E7;
     padding: 120px 0;
 }
 
-.business-test a{
+.dropbox-business-test .container{
+    align-items: baseline;
+}
+
+.dropbox-business-test a{
     background-color: #FFFFFF;
     color: #000;
 }
 
-.business-test h2{
+.dropbox-business-test h2{
     color: #61082B;
     padding-right: 150px;
+    margin-bottom: 0;
 }
 
 /* FAQ SECTION */
