@@ -304,12 +304,12 @@ li .fa-circle.unchecked{
 .col-business{
     width: calc(100% / 3 - 30px);
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .col-business img{
     width: 100%;
 }
-
 
 /* DROPBOX BUSINESS TESTIMONIALS SECTION */
 
