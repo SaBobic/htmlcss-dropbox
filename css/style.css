@@ -390,12 +390,32 @@ li .fa-circle.not-selected{
 
 .questions-row{
     border-top: 1px solid #000;
+    cursor: pointer;
+}
+
+.question-box{
+    border-bottom: 1px solid #000;
 }
 
 .question-box{
     padding: 40px 40px 40px 0;
+}
+
+.question-box .question p{
     font-weight: 700;
-    border-bottom: 1px solid #000;
+}
+
+.answer{
+    padding-top: 40px;
+    display: none;
+}
+
+.question-box:hover .answer{
+    display: block;
+}
+
+.question-box:hover .fa-angle-down{
+    transform: rotate(180deg);
 }
 
 /* FOOTER */
